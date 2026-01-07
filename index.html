@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lukt | 룩트 건강한 미식 경험</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+
+    <header class="clearfix">
+        <h1 class="logo">
+            <a href="#"><img src="images/main_logo.svg" alt="룩트"></a>
+        </h1>
+
+        <nav class="gnb">
+            <ul class="clearfix">
+                <li><a href="#">BRAND</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">CUSTOM</a></li>
+                <li><a href="#">RECIPE</a></li>
+                <li><a href="#">SUPPORT</a></li>
+            </ul>
+        </nav>
+
+        <div class="icon-grp">
+            <div class="icon-grp-inner">
+                <button><img src="images/icon_search.svg" alt="검색"></button>
+                <button><img src="images/icon_cart.svg" alt="장바구니"></button>
+                <button><img src="images/icon_my-account.svg" alt="마이페이지"></button>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="main-slider">
+            <ul>
+                <li class="slide1">
+                    <img src="images/main_image1.jpg" alt="메인 슬라이드1">
+                    <div class="main-info">
+                        <p class="sub-title">Icelandic Yogurt</p>
+                        <h2>룩트 아이슬란딕 요거트</h2>
+                        <p class="des">국산 1등급 A원유의 깊은 풍미<br>고단백,저지방으로 느껴보세요</p>
+                        <a href="#" class="main-button">자세히 보기</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/main_image2.jpg" alt="메인 슬라이드2">
+                    <div class="main-info"></div>
+                </li>
+                <li>
+                    <img src="images/main_image3.jpg" alt="메인 슬라이드3">
+                    <div class="main-info"></div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="slide-controls">
+            <div class="slider-arrows">
+                <button class="prev-btn"><img src="images/arrow-left.png" alt="이전 슬라이드"></button>
+                <button class="next-btn"><img src="images/arrow_right.png" alt="다음 슬라이드"></button>
+            </div>
+
+            <div class="slider-dots">
+                <button class="dot active" data-index="0"></button>
+                <button class="dot" data-index="1"></button>
+                <button class="dot" data-index="2"></button>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <article class="best">
+
+            <div class="best-inner">
+
+                <div class="best-title">
+                    <h2>베스트 셀러</h2>
+                    <p>룩트의 인기 제품들을 소개합니다</p>
+                </div>
+
+                
+                <div class="best-container">
+
+                    <div class="recipe-content">
+                        <video id="recipeVideo" preload="metadata" muted>
+                            <source src="images/recipe_video.mp4" type="video/mp4">
+                        </video>
+
+                        <div class="thumb">
+                            <img src="images/best_reels_thumb.png" alt="릴스 레시피 비디오 썸네일">
+                            <button type="button" class="play-btn">
+                                <img src="images/icon_play.png" alt="재생">
+                            </button>
+                            <div class="recipe-txt">
+                                <h3>RECIPE</h3>
+                                <p>크리스마스 에디션 🎄<br>블랙코코아로 반죽하는 브라우니</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="best-content">
+
+                        <div class="best-grp">
+                            <img src="images/best_Image_mild.png" alt="아이슬란딕 요거트 마일드 100g 이미지">
+
+                            <div class="product-info">
+                                <div class="text-grp">
+                                    <a href="#">
+                                        <h3>아이슬란딕 요거트<br>마일드 100g</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>더보기</p>
+                                    </a>
+                                </div>
+
+                                <a href="#" class="heart-btn">
+                                    <img src="images/best_icon_solar_heart-broken.png" alt="좋아요 아이콘">
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="best-grp">
+                            <img src="images/best_Image_butter.png" alt="룩트 트러플 버터 80g 이미지">
+
+                            <div class="product-info">
+                                <div class="text-grp">
+                                    <a href="#">
+                                        <h3>룩트 트러플 버터<br>80g</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>더보기</p>
+                                    </a>
+                                </div>
+
+                                <a href="#" class="heart-btn">
+                                    <img src="images/best_icon_solar_heart-broken.png" alt="좋아요 아이콘">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="best-grp">
+                            <img src="images/best_Image_granola.png" alt="그래놀라 클러스터 25g">
+
+                            <div class="product-info">
+                                <div class="text-grp">
+                                    <a href="#">
+                                        <h3>그래놀라 클러스터 25g</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>더보기</p>
+                                    </a>
+                                </div>
+
+                                <a href="#" class="heart-btn">
+                                    <img src="images/best_icon_solar_heart-broken.png" alt="좋아요 아이콘">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="best-grp">
+                            <img src="images/best_Image_thic.png" alt="아이슬란딕 요거트 띠크 100g">
+
+                            <div class="product-info">
+                                <div class="text-grp">
+                                    <a href="#">
+                                        <h3>아이슬란딕 요거트 띠크<br>100g</h3>
+                                    </a>
+                                    <a href="#">
+                                        <p>더보기</p>
+                                    </a>
+                                </div>
+
+                                <a href="#" class="heart-btn">
+                                    <img src="images/best_icon_solar_heart-broken.png" alt="좋아요 아이콘">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+
+        <article class="banner">
+
+            <img src="images/Banner.png" alt="카페 룩트 용산 배너 이미지">
+
+            <div class="banner-info">
+                <p class="banner-brand">
+                    cafe lukt
+                </p>
+
+                <h3 class="banner-txt">
+                    <span>요거트 볼</span>과 <span>브런치</span>를<br>카페 룩트 용산에서 즐겨보세요
+                </h3>
+
+                <a href="#" class="view-more">카페 둘러 보기</a>
+            </div>
+
+        </article>
+
+        <article class="custom">
+
+            <div class="custom container">
+
+                <div class="custom-title">
+                    <h2>룩트, 이렇게 만들어 보세요.</h2>
+                    <a href="#">자세히 보기</a>
+                </div>
+
+                <div class="custom-content">
+
+                    <div class="custom-grp">
+                        <a href="#"><img src="images/custom_image1.png" alt="step1. 베이스 선택 이미지"></a>
+
+                        <a href="#" class="custom-info">
+                            <img src="images/custom_step-box1.png" alt="step1">
+                            <p><strong>BASE</strong>를 선택하세요.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="custom-grp">
+
+                        <a href="#"><img src="images/custom_image2.png" alt="step2. 토핑 선택 이미지"></a>
+
+                        <a href="#" class="custom-info">
+                            <img src="images/custom_step-box2.png" alt="step2">
+                            <p><strong>TOPPING</strong>을 선택하세요.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="custom-grp">
+
+                        <a href="#"><img src="images/custom_image3.png" alt="step3. 플레이버 더하기 이미지"></a>
+
+                        <a href="#" class="custom-info">
+                            <img src="images/custom_step-box3.png" alt="step3">
+                            <p><strong>FLAVOR</strong>를 더해보세요.</p>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </article>
+
+        <article class="video">
+
+            <div class="video-container">
+                <video autoplay muted loop playsinline>
+                    <source src="images/video_lukt.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video-info">
+                <h2 class="video-title">lukt</h2>
+                <p class="video-sub-title">Icelandic Yogurt<br>Your daily journey to healthy delight</p>
+
+                <p class="video-des">좋은 원재료와 아이슬란드 전통 방식으로 만든 요거트, 룩트<br>먹는 매 순간, 건강한 미식 경험을 선사합니다.</p>
+            </div>
+        </article>
+
+    </section>
+
+    <footer>
+        <h2><img src="images/main_logo.svg" alt="룩트"></h2>
+
+        <div class="footer-content">
+
+            <div class="footer-grp">
+                <h3>고객센터 02 - 6207 - 2083</h3>
+                <p>카카오톡 플러스친구 ‘룩트아이슬란딕요거트’ <a href="#">↗</a></p>
+                <p>월-금 09:00 ~ 18:00 (점심시간 12:00 ~ 13:00)</p>
+            </div>
+
+            <div class="footer-grp">
+                <h3>비즈니스 문의</h3>
+                <p><a href="#">hi@artitude.co.kr</a></p>
+            </div>
+
+            <div class="footer-grp">
+                <h3>SOCIAL</h3>
+                <p>인스타그램<a href="#">↗</a></p>
+                <p>블로그<a href="#">↗</a></p>
+            </div>
+
+            <div class="footer-grp">
+                <h3>(주)아티튜드</h3>
+                <address>
+                    사업자등록번호 387-88-01923 <a href="#">사업자정보확인</a><br>
+                    통신판매업신고번호 2020-서울강남-00906<br>
+                    대표이사 류주현 | 개인정보책임자 류주현<br>
+                    서울특별시 강남구 테헤란로7길 22, 2동 9층 920호(역삼동)
+                </address>
+                <p class="copyright">Copyright © 2026 룩트 요거트 All rights reserved</p>
+
+                <div class="footer-links">
+                    <a href="#">이용약관</a>
+                    <a href="#">개인정보처리방침</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

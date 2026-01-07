@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+
+
+main {
+    width: 100%;
+}
+
+/* 실제로 보여지는 공간 : setinterval.html참고 */
+main .main-slider {
+    width: 1920px;
+    /*  margin: 0 auto; */
+    overflow: hidden;
+    position: relative;
+    /* outline: 3px solid red; */
+}
+
+/* 슬라이드 전체를 담는 부모 
+(실제 움직이는 대상) */
+main .main-slider ul {
+    width: 300%;
+}
+
+main .main-slider ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main .main-slider ul li {
+    width: 33.33%;
+    float: left;
+}
+
+main .main-slider ul .slide1 {
+    position: relative;
+}
+
+main .main-slider ul li img {
+    width: 100%;
+    display: block;
+}
+
+.main-info {
+    width: 100%;
+    display: inline-block;
+    width: fit-content;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+
+    /* outline: 2px solid red; */
+
+}
+
+.main-info .sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    width: fit-content;
+}
+
+.main-info h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: fit-content;
+
+}
+
+.main-info .des {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 70px;
+    width: fit-content;
+
+}
+
+.main-info a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    width: fit-content;
+}
+
+main .slide-controls {}
+
+main .slide-controls .slider-arrows {}
+
+main .slide-controls .slider-arrows button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 85px;
+}
+
+.next-btn {
+    right: 85px;
+}
+
+main .slide-controls .slider-dots {
+    width: fit-content;
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
+    transform: translateX(-50%);
+}
+
+main .slide-controls .slider-dots button {
+
+    /* outline: 1px solid red; */
+}
+
+.dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.dot.active {
+    background-color: #213555;
+    border-color: #213555;
+}
+
+section {}
+
+section .best {}
+
+section .best .best-inner {
+    width: 100%;
+}
+
+.best-title {
+    outline: 2px solid red;
+    display: inline-block;
+    margin-bottom: 35px;
+}
+
+.best-title h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #213555;
+    margin-bottom: 10px;
+}
+
+.best-title p {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.best-container {
+    /* height: 526px; */
+}
+
+.best-container .recipe-content {
+    width: 345px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid red;
+
+}
+
+.best-container .recipe-content video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.best-container .recipe-content .thumb {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 2;
+
+  /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+
+.best-container .recipe-content img {
+  display: block;
+}
+
+.best-container .recipe-content .play-btn {
+    z-index: 3;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.best-container .recipe-content .play-btn img {}
+
+.best-container .recipe-content .recipe-txt {
+    z-index: 3;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+
+    /* background-color: aquamarine; */
+}
+
+.recipe-txt h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+
+    margin-bottom: 20px;
+}
+
+.recipe-txt p {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+
+    line-height: 34px;
+}
