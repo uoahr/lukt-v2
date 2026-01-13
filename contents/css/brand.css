@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/* brand.css */
+
+.page {
+    position: relative;
+}
+
+.page img.brand-page {}
+
+.page .brand-msg {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    color: #fff;
+    box-sizing: border-box;
+
+   transform: translate(-15%, -20%);
+    
+}
+
+.page .brand-msg1 {
+    height: 320px;
+    left: 54.6%;
+    top: 51.1%;
+}
+
+.page .brand-msg2 {
+    height: 310px;
+    left: 12.5%;
+    top: 52.8%;
+
+}
+
+.page .brand-msg3 {
+    height: 330px;
+    left: 50.5%;
+    top: 38.2%;
+
+}
+
+.page .brand-msg4 {
+    height: 330px;
+    left: 12.5%;
+    top: 47.4%;
+
+}
+
+.page .brand-msg .title-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* 피그마에서 제목-부제목 사이의 작은 간격값 입력 */
+}
+
+.page .brand-msg .brand-title {
+    font-size: 54px;
+    font-weight: 600;
+    /* margin-bottom: 5px; */
+}
+
+.page .brand-msg .brand-title img {}
+
+.page .brand-msg .sub-title {
+    font-size: 24px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.page .brand-msg .sub-title:nth-child(2) {
+    line-height: 26px;
+}
+
+
+
+.page .brand-msg .des {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    opacity: 0.8;
+    margin-top: auto;
+}
+
+.page .slide-pagination {}
+
+.page .slide-pagination li.active {}
+
+.page .slide-pagination li {}
+
+.page .slide-pagination li a {}
