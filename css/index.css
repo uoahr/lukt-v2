@@ -27,8 +27,6 @@ main .main-slider ul {
     /* left를 쓰기 위해 필수! */
     left: 0;
     transition: none;
-    /* 애니메이션은 JS가 담당하므로 끕니다 */
-
 }
 
 main .main-slider ul::after {
